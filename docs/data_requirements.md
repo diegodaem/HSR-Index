@@ -7,7 +7,7 @@
 
 | Column | Type | Description | Example |
 |--------|------|-------------|---------|
-| `ID` | character | Unique species identifier | `"Anoura_cultrata_cryptic_1"` |
+| `ID` | character | Unique species identifier | `"Anoura_cultrata_clade_1"` |
 | `Longitude` | numeric | Decimal degrees, WGS84 | `-74.5` |
 | `Latitude` | numeric | Decimal degrees, WGS84 | `-4.2` |
 
