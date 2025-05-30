@@ -161,7 +161,7 @@ Longitude,Latitude
 - Any spatial resolution (will be resampled if needed)
 
 **Data source**:
-- 29.	Theobald, D. M., Kennedy, C., Chen, B., Oakleaf, J., Baruch-Mordo, S., & Kiesecker, J. (2020). Earth transformed: detailed mapping of global human modification from 1990 to 2017. Earth System Science Data, 12(3), 1953–1972. DOI: https://doi.org/10.5194/essd-12-1953-2020 (2020). 
+- Theobald, D. M., Kennedy, C., Chen, B., Oakleaf, J., Baruch-Mordo, S., & Kiesecker, J. (2020). Earth transformed: detailed mapping of global human modification from 1990 to 2017. Earth System Science Data, 12(3), 1953–1972. DOI: https://doi.org/10.5194/essd-12-1953-2020 (2020). 
 
 ---
 
