@@ -14,7 +14,7 @@
 **Example file content**:
 ```csv
 ID,Longitude,Latitude
-Anoura_cultrata_cryptic_1,-74.5,-4.2
-Anoura_cultrata_cryptic_2,-75.1,-3.8
-Carollia_perspicillata_hidden_1,-76.2,-2.1
-Sturnira_lilium_cryptic_1,-74.8,-3.9
+Anoura_cultrata_clade_1,-74.5,-4.2
+Anoura_cultrata_clade_2,-75.1,-3.8
+Carollia_perspicillata_clade_1,-76.2,-2.1
+Sturnira_lilium_clade_1,-74.8,-3.9
