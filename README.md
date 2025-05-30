@@ -2,7 +2,6 @@
 ## Hidden Species Ratio for Biodiversity Priority Assessment
 
 ![R](https://img.shields.io/badge/R-%23276DC3.svg?style=flat&logo=r&logoColor=white)
-![GitHub release](https://img.shields.io/github/v/release/diegodaem/HSR-Index)
 ![GitHub issues](https://img.shields.io/github/issues/diegodaem/HSR-Index)
 
 ### 🔬 Research Context
