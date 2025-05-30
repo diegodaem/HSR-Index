@@ -322,11 +322,11 @@ This project is licensed under the **MIT License** - see the [LICENSE](LICENSE) 
 ## 🏆 Acknowledgments
 
 ### Funding
-- [Coordenação de Aperfeiçoamento de Pessoal de Nível Superior, Brazil – (CAPES)
+- Coordenação de Aperfeiçoamento de Pessoal de Nível Superior, Brazil – (CAPES)
 - The Field Museum Science Scholarships Program
 - Bat Conservation International
 - The Rufford Foundation
-- Graduate Student Research Awards, The Society of Systematic Biologists ]
+- Graduate Student Research Awards, The Society of Systematic Biologists
 
 ---
 
