@@ -303,26 +303,4 @@ plot(data$Longitude, data$Latitude)
 - **Online converters**: For coordinate system transformations
 
 ---
-
-## Data Citation
-
-When using external datasets, please cite appropriately:
-
-### Example Citations
-```bibtex
-@misc{grip4_2018,
-  title={GRIP4: Global Roads Inventory Project},
-  author={Meijer, J.R. and Huijbregts, M.A.J. and Schotten, K.C.G.J. and Schipper, A.M.},
-  year={2018},
-  publisher={Environmental Research Letters}
-}
-
-@misc{wdpa_2023,
-  title={World Database on Protected Areas},
-  author={{UNEP-WCMC and IUCN}},
-  year={2023},
-  url={https://www.protectedplanet.net/}
-}
-```
-
 Remember to check licensing requirements for each dataset and cite accordingly in your publications.
