@@ -88,7 +88,7 @@ Longitude,Latitude
 
 **Common data sources**:
 - [WWF Terrestrial Ecoregions](https://www.worldwildlife.org/publications/terrestrial-ecoregions-of-the-world)
-- 28.	Morrone, J. J., Escalante, T., Rodríguez-Tapia, G., Carmona, A., Arana, M., & Mercado-Gómez, J. D. Biogeographic regionalization of the Neotropical region: New map and shapefile. Anais da Academia Brasileira de Ciências, 94, e20211167. DOI: https://doi.org/10.1590/0001-3765202220211167 (2022). 
+- Morrone, J. J., Escalante, T., Rodríguez-Tapia, G., Carmona, A., Arana, M., & Mercado-Gómez, J. D. Biogeographic regionalization of the Neotropical region: New map and shapefile. Anais da Academia Brasileira de Ciências, 94, e20211167. DOI: https://doi.org/10.1590/0001-3765202220211167 (2022). 
 
 ---
 
