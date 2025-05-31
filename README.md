@@ -1,5 +1,5 @@
 # HSR Index 
-## Hidden Species Ratio for Biodiversity Priority Assessment
+## Hidden Species Richness for Biodiversity Priority Assessment
 
 ![R](https://img.shields.io/badge/R-%23276DC3.svg?style=flat&logo=r&logoColor=white)
 ![GitHub issues](https://img.shields.io/github/issues/diegodaem/HSR-Index)
