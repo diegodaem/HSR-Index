@@ -11,7 +11,7 @@
 
 ## 📋 Description
 
-The **Hidden Species Ratio (HSR) Index** is a quantitative framework designed to identify priority biogeographic areas for hidden species discovery. By integrating multiple biodiversity and accessibility factors, the HSR provides researchers with a data-driven approach to optimize field surveys and taxonomic research efforts.
+The **Hidden Species Richness (HSR) Index** is a quantitative framework designed to identify priority biogeographic areas for hidden species discovery. By integrating multiple biodiversity and accessibility factors, the HSR provides researchers with a data-driven approach to optimize field surveys and taxonomic research efforts.
 
 ### Key Features
 - **Species richness integration**: Accounts for known hidden diversity patterns
