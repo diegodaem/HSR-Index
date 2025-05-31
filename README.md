@@ -17,7 +17,7 @@ The **Hidden Species Richness (HSR) Index** is a quantitative framework designed
 - **Species richness integration**: Accounts for known hidden diversity patterns
 - **Sampling effort correction**: Adjusts for heterogeneous genetic sampling
 - **Accessibility analysis**: Incorporates accessibility and geographic constraints
-- **Climate change integration**: Include climate loss projections
+- **Climate change integration**: Include climate change projections
 - **Scalable framework**: Adaptable to different taxonomic groups and regions
 
 ---
