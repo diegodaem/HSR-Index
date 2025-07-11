@@ -215,7 +215,7 @@ When using the HSR Index methodology, please cite:
 @article{esquivel2025hsr,
   title={Racing Against Time to Unveil Hidden Bat Diversity},
   author={Esquivel, Diego A.},
-  journal={Science Advances},
+  journal={Nature Communications},
   volume={XX},
   number={XX},
   pages={eXXXXXXX},
@@ -336,5 +336,5 @@ This project is licensed under the **MIT License** - see the [LICENSE](LICENSE) 
 
 ---
 
-*Last updated: [05/30/2025]*  
+*Last updated: [06/30/2025]*  
 *Version: 1.0.0*
