@@ -49,16 +49,7 @@ The **Hidden Species Richness (HSR) Index** is a quantitative framework designed
    - Use files in [`data/example/`](data/example/) as templates
    - Place your data in `data/input/` following the required structure
 
-4. **Configure your analysis**
-   ```r
-   # Copy configuration template
-   file.copy("config/config_template.yaml", "config/config.yaml")
-   
-   # Edit config.yaml with your specific data paths
-   # Use any text editor or RStudio
-   ```
-
-5. **Run the analysis**
+4. **Run the analysis**
    ```r
    # Execute main HSR analysis
    source("scripts/HSR_index.R")
@@ -127,8 +118,6 @@ HSR-Index/
 │   │   ├── Hidden_points_example.csv
 │   │   └── All_coordinates_example.csv
 │   └── 📁 input/                  # Your data goes here
-├── 📁 config/                      # Configuration files
-│   └── ⚙️ config_template.yaml    # Configuration template
 ├── 📁 output/                      # Generated results
 │   ├── 📊 figures/                # Maps and plots
 │   ├── 📋 tables/                 # CSV results
