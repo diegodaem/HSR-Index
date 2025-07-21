@@ -30,8 +30,6 @@ required_packages <- c(
   "ggplot2",      # Advanced graphics
   "gridExtra",    # Multiple plot arrangements
   
-  # Additional utilities
-  "yaml"          # Configuration file reading
 )
 
 # Function to install packages if they are not available
