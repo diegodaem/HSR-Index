@@ -152,7 +152,7 @@ HSR-Index/
 │   ├── 📋 tables/                  # CSV results
 │   └── 🗺️ rasters/                # Spatial outputs
 ---
-
+```
 ## 🔧 System Requirements
 
 ### Software Dependencies
