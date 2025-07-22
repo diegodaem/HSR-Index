@@ -198,23 +198,23 @@ Final_Areas/
 data/input/
 ├── Hidden_points.csv                    # Required
 ├── All_coordinates.csv                  # Required
-├── HF_neotropico_final.tif             # Optional
-├── Neotropic/                          # Required
+├── HF_neotropico_final.tif             # Required - Human footprint map with raw data (can be replaced with any area or biome of interest).
+├── Neotropic/                          # Required - Neotropical provinces (any other regionalization can be included for any region of the world)
 │   ├── provinces.shp
 │   ├── provinces.shx
 │   ├── provinces.dbf
 │   ├── provinces.prj
 │   └── [other shapefile components]
-├── GRIP4/                              # Required
+├── GRIP4/                              # Required (defined for the study region)
 │   ├── roads.shp
 │   └── [associated files]
-├── Cities/                             # Required
+├── Cities/                             # Required (defined for the study region)
 │   ├── cities.shp
 │   └── [associated files]
-├── WDPA_Data/                          # Required
+├── WDPA_Data/                          # Required (defined for the study region)
 │   ├── protected_areas.shp
 │   └── [associated files]
-└── Final_Areas/                        # Optional
+└── Loss_Areas/                        # Optional (area loss for each hidden species complex)
     ├── Species_1/
     │   ├── Loss_ssp245.tif
     │   └── Loss_ssp585.tif
