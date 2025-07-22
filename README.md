@@ -59,9 +59,9 @@ Optional, but recommended integrations:
    ```
 
 ### Expected Runtime
-- **Small datasets** (<1,000 sequences): 30-60 minutes
-- **Medium datasets** (1,000-10,000 sequences): 3-5 hours  
-- **Large datasets** (>10,000 sequences): 12-18 hours
+- **Small datasets** (<1,000 geographic coordinates): 30-60 minutes
+- **Medium datasets** (1,000-10,000 geographic coordinates): 3-5 hours  
+- **Large datasets** (>10,000 geographic coordinates): 12-18 hours
 
 ---
 
@@ -271,7 +271,7 @@ When reporting bugs, please include:
 ## 📊 Performance Benchmarks
 
 ### Computation Times (approximate)
-| Dataset Size | Provinces | Sequences | Runtime | RAM Usage |
+| Dataset Size | Provinces | geographic coordinates | Runtime | RAM Usage |
 |--------------|-----------|-----------|---------|-----------|
 | Small | 10-50 | <1,000 | 30-60 min | 2-3 GB |
 | Medium | 50-100 | 1,000-10,000 | 3-5 hours | 4-8 GB |
