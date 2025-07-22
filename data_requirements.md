@@ -196,15 +196,14 @@ Loss_Areas/
 data/input/
 ├── Hidden_points.csv                    # Required
 ├── All_coordinates.csv                  # Required
-├── HF_neotropico_final.tif             # Required 
 ├── Neotropic/                          # Required 
 │   ├── provinces.shp
 │   ├── provinces.shx
 │   ├── provinces.dbf
 │   ├── provinces.prj
 │   └── [other shapefile components]
-├── Human_Footprint/
-│   ├── FF_neotropics
+├── Human_Footprint/                    # Required
+│   ├── HF_neotropics
 ├── GRIP4/                              # Required 
 │   ├── roads.shp
 │   └── [associated files]
