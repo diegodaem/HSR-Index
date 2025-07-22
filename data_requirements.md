@@ -203,6 +203,8 @@ data/input/
 │   ├── provinces.dbf
 │   ├── provinces.prj
 │   └── [other shapefile components]
+├── Human_Footprint/
+│   ├── FF_neotropics
 ├── GRIP4/                              # Required 
 │   ├── roads.shp
 │   └── [associated files]
@@ -210,7 +212,7 @@ data/input/
 │   ├── cities.shp
 │   └── [associated files]
 ├── WDPA_Data/                          # Required 
-│   ├── protected_areas.shp
+│   ├── WDPA_neotropico.gpkg
 │   └── [associated files]
 └── Loss_Areas/                        # Optional 
     ├── Species_1/
