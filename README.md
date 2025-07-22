@@ -5,20 +5,23 @@
 ![GitHub issues](https://img.shields.io/github/issues/diegodaem/HSR-Index)
 
 ### 🔬 Research Context
-**Paper**: Esquivel, D.A., Penagos, A., Feijó, A., Ramos Pereira, M. (2025). Racing Against Time to Unveil Hidden Bat Diversity.
+**Paper**: Esquivel, D.A., Penagos, A., Feijó, A., Ramos Pereira, M. (2025). Racing Against Time to Unveil Hidden Bat Diversity. Submitted to "Nature Communications"
 
 ---
 
 ## 📋 Description
 
-The **Hidden Species Richness (HSR) Index** is a quantitative framework designed to identify priority biogeographic areas for hidden species discovery. By integrating multiple biodiversity and accessibility factors, the HSR provides researchers with a data-driven approach to optimize field surveys and taxonomic research efforts.
+The **Hidden Species Richness (HSR) Index** is a quantitative framework designed to identify biogeographic areas with the highest potential for hidden species discovery. By integrating multiple biodiversity and accessibility factors, the HSR offers a data-driven tool to guide field surveys and taxonomic research. When combined with ecological niche models and variables representing human-induced landscape modification, the HSR helps pinpoint regions of critical importance for detecting cryptic diversity. The model is flexible and can be adapted for any taxonomic group, across all biomes and ecosystems globally.
 
 ### Key Features
 - **Species richness integration**: Accounts for known hidden diversity patterns
-- **Sampling effort correction**: Adjusts for heterogeneous genetic sampling
-- **Accessibility analysis**: Incorporates accessibility and geographic constraints
-- **Climate change integration**: Include climate change projections
-- **Scalable framework**: Adaptable to different taxonomic groups and regions
+- **Sampling effort correction**: Adjusts for uneven genetic sampling across regions
+- **Accessibility analysis**: Considers geographic and logistical access constraints
+- **Scalable framework**: Easily adaptable to any taxonomic group or geographic region
+
+Optional, but recommended integrations:
+- **Human impact analysis**: Adds the effects of human-induced landscape modification
+- **Climate change projections**: Integrates future climate scenarios to assess potential impacts
 
 ---
 
@@ -46,8 +49,8 @@ The **Hidden Species Richness (HSR) Index** is a quantitative framework designed
 
 3. **Prepare your data**
    - Read [`data_requirements.md`](data_requirements.md) for detailed format specifications
-   - Use files in [`data/example/`](data/example/) as templates
-   - Place your data in `data/input/` following the required structure
+   - Use files in [`data/input/`](data/input/) as templates
+   - Replace your data in `data/input/` following the required structure
 
 4. **Run the analysis**
    ```r
@@ -56,9 +59,9 @@ The **Hidden Species Richness (HSR) Index** is a quantitative framework designed
    ```
 
 ### Expected Runtime
-- **Small datasets** (<1,000 sequences): 5-15 minutes
-- **Medium datasets** (1,000-10,000 sequences): 1-3 hours  
-- **Large datasets** (>10,000 sequences): 3-5 hours
+- **Small datasets** (<1,000 sequences): 30-60 minutes
+- **Medium datasets** (1,000-10,000 sequences): 3-5 hours  
+- **Large datasets** (>10,000 sequences): 12-18 hours
 
 ---
 
@@ -90,7 +93,7 @@ HSR = (S_hidden / log(N_sequences + 1)) × (1 + w₁×Z_accessibility + w₂×Z_
 3. **Standardization**: Apply log transformation and robust Z-score normalization using Median Absolute Deviation (MAD)
 
 ### Critical Areas Integration
-Optionally combine HSR with additional layers:
+Optionally, combine HSR with additional layers:
 
 ```
 Critical_Areas = α×HSR + β×Human_Footprint + γ×Climate_Loss
@@ -111,13 +114,11 @@ HSR-Index/
 ├── 📁 scripts/                     # Analysis code
 │   ├── 🔧 install_dependencies.R   # Package installation
 │   ├── 📊 HSR_index.R             # Main analysis script
-│   └── 📁 utils/                   # Helper functions (future)
 ├── 📁 data/                        # Data directory
 │   ├── 📄 README.md               # Data documentation
-│   ├── 📁 example/                # Example datasets
+│   ├── 📁 input/                # datasets
 │   │   ├── Hidden_points_example.csv
 │   │   └── All_coordinates_example.csv
-│   └── 📁 input/                  # Your data goes here
 ├── 📁 output/                      # Generated results
 │   ├── 📊 figures/                # Maps and plots
 │   ├── 📋 tables/                 # CSV results
