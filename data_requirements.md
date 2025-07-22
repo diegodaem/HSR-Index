@@ -2,7 +2,7 @@
 
 ## Overview
 
-The Hidden Species Ratio (HSR) analysis requires specific input data formats to identify priority areas for hidden species discovery. This document details all required and optional data inputs.
+The Hidden Species Ratio (HSR) analysis requires specific input data formats to identify priority areas for hidden species. This document details all required and optional data inputs.
 
 ## Required Input Files
 
