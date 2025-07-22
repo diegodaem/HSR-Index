@@ -38,7 +38,7 @@ Desmodus_rotundus_clade_1,-77.2,-2.8
 
 ### 2. 🧬 All Genetic Coordinates
 **File**: `All_coordinates.csv`  
-**Description**: Corresponds to all the geographic coordinates of all the genetic sequences available for COI, in GenBank or Boldsystems.  
+**Description**: Represents the complete set of geographic coordinates for all available COI gene sequences of the target taxonomic group, obtained from GenBank and BOLD Systems.  
 **Format**: CSV with UTF-8 encoding  
 
 | Column | Type | Description | Example | Required |
