@@ -108,27 +108,49 @@ Default weights: α=0.33, β=0.34, γ=0.33
 ```
 HSR-Index/
 ├── 📄 README.md                    # This documentation
-├── 📄 data_requirements.md         # Data format specifications
 ├── 📄 LICENSE                      # MIT License
 ├── 📄 .gitignore                   # Git ignore rules
+├── 📁 docs/                        # Additional documentation
+│   ├── methodology.md             # Detailed methodology
+├── 📁 data/                        
+│   ├── 📄 data_requirements.md     # Data format specifications
+│   ├── 📁 input/                   # Datasets
+│   │   ├── Hidden_points.csv
+│   │   ├── All_coordinates.csv
+│   │   ├── 📁 Neotropic/           # Neotropical provinces used for analyses. Users can replace with their own regionalization.
+│   │   │   ├── provinces.shp
+│   │   │   ├── provinces.shx
+│   │   │   ├── provinces.dbf
+│   │   │   ├── provinces.prj
+│   │   │   └── ... [associated files]
+│   │   ├── 📁 Human_Footprint/    # Data from Theobald et al. (2020). Users may clip the raster layer to match their area of interest.
+│   │   │   └── HF_neotropics
+│   │   ├── 📁 GRIP4/              # Data from Meijer et al. (2018). Users may clip the shp. layer to match their area of interest.
+│   │   │   ├── roads.shp           
+│   │   │   └── ... [associated files]  
+│   │   ├── 📁 Cities/             # Data from geonames.org. Users may clip the shp. layer to match their area of interest.
+│   │   │   └── cities.shp
+│   │   │   └── ... [associated files]          
+│   │   ├── 📁 WDPA_Data/          # Data from World Database on Protected Areas. Users may clip the raster layer to match their area of interest.
+│   │   │   └── WDPA_neotropico.gpkg
+│   │   │   └── ... [associated files] 
+│   │   ├── 📁 Loss_Areas/         # Users must load the "area loss" files for each species.
+│   │   │   ├── 📁 Species_1/
+│   │   │   │   ├── Loss_ssp245.tif
+│   │   │   │   └── Loss_ssp585.tif
+│   │   │   ├── 📁 Species_2/
+│   │   │   │   ├── Loss_ssp245.tif
+│   │   │   │   └── Loss_ssp585.tif
+│   │   │   └── 📁 Species_N/
+│   │   │       ├── Loss_ssp245.tif
+│   │   │       └── Loss_ssp585.tif
 ├── 📁 scripts/                     # Analysis code
 │   ├── 🔧 install_dependencies.R   # Package installation
-│   ├── 📊 HSR_index.R             # Main analysis script
-├── 📁 data/                        # Data directory
-│   ├── 📄 README.md               # Data documentation
-│   ├── 📁 input/                # datasets
-│   │   ├── Hidden_points_example.csv
-│   │   └── All_coordinates_example.csv
+│   ├── 📊 HSR_index.R              # Main analysis script
 ├── 📁 output/                      # Generated results
-│   ├── 📊 figures/                # Maps and plots
-│   ├── 📋 tables/                 # CSV results
-│   └── 🗺️ rasters/               # Spatial outputs
-└── 📁 docs/                       # Additional documentation
-    ├── methodology.md             # Detailed methodology
-    ├── installation.md            # Installation guide
-    └── examples/                  # Usage examples
-```
-
+│   ├── 📊 figures/                 # Maps and plots
+│   ├── 📋 tables/                  # CSV results
+│   └── 🗺️ rasters/                # Spatial outputs
 ---
 
 ## 🔧 System Requirements
@@ -147,8 +169,8 @@ HSR-Index/
 
 ### Hardware Recommendations
 - **CPU**: Multi-core processor (4+ cores recommended)
-- **RAM**: 8GB minimum, 16GB+ recommended
-- **Storage**: 5GB+ free space for data and outputs
+- **RAM**: 4GB minimum, 16GB+ recommended
+- **Storage**: 4GB+ free space for data and outputs
 - **OS**: Windows 10+, macOS 10.14+, or Linux (Ubuntu 18.04+)
 
 ---
@@ -157,7 +179,6 @@ HSR-Index/
 
 ### Quick References
 - **[📊 Data Requirements](data_requirements.md)**: Complete data format specifications
-- **[⚙️ Installation Guide](docs/installation.md)**: Detailed setup instructions
 - **[🔬 Methodology](docs/methodology.md)**: Scientific background and mathematical details
 - **[💡 Usage Examples](docs/examples/)**: Step-by-step tutorials
 
@@ -170,8 +191,7 @@ The HSR analysis generates several key outputs:
 
 **Maps**:
 - HSR Index distribution across biogeographic provinces
-- Critical areas under climate change scenarios
-- Accessibility and sampling effort visualizations
+- Accessibility and sampling effort
 
 **Tables**:
 - Province-level HSR scores and rankings
@@ -253,9 +273,9 @@ When reporting bugs, please include:
 ### Computation Times (approximate)
 | Dataset Size | Provinces | Sequences | Runtime | RAM Usage |
 |--------------|-----------|-----------|---------|-----------|
-| Small | 10-50 | <1,000 | 5-15 min | 2-4 GB |
-| Medium | 50-100 | 1,000-5,000 | 1-3 hours | 4-8 GB |
-| Large | 100+ | 5,000-20,000 | 3-5 hours | 8-16 GB |
+| Small | 10-50 | <1,000 | 30-60 min | 2-3 GB |
+| Medium | 50-100 | 1,000-10,000 | 3-5 hours | 4-8 GB |
+| Large | 100+ | 10,000-20,000 | 12-18 hours | 8-16 GB |
 
 *Times measured on Intel i7 processor with 16GB RAM*
 
