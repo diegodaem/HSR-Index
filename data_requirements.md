@@ -22,8 +22,8 @@ The Hidden Species Ratio (HSR) analysis requires specific input data formats to 
 ID,Longitude,Latitude
 Anoura_cultrata_clade_1,-74.5,-4.2
 Anoura_cultrata_clade_2,-75.1,-3.8
-Sturnira_lilium_clade_1,-74.8,-3.9
-Lophostoma_silvicola_clade_1,-76.0,-3.2
+Lophostoma_silvicola_clade_1,-74.8,-3.9
+Lophostoma_silvicola_clade_3,-76.0,-3.2
 Desmodus_rotundus_clade_1,-77.2,-2.8
 ```
 
