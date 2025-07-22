@@ -71,7 +71,7 @@ Longitude,Latitude
 
 ### 3. 🗺️ Biogeographic Provinces
 **Directory**: `Neotropic/` (or custom name)  
-**Description**: Biogeographic province boundaries as vector polygons  
+**Description**: Biogeographic boundaries as vector polygons; any regionalization can be used as needed.  
 **Format**: Shapefile (.shp) or GeoPackage (.gpkg)  
 
 **Required attributes**:
@@ -94,7 +94,7 @@ Longitude,Latitude
 
 ### 4. 🛣️ Road Network
 **Directory**: `GRIP4/` (or custom name)  
-**Description**: Road infrastructure for accessibility analysis  
+**Description**: Road infrastructure for accessibility analysis; users should clip and extract data based on their area of interest.  
 **Format**: Shapefile (.shp) or GeoPackage (.gpkg)  
 
 **Required attributes**:
@@ -115,7 +115,7 @@ Longitude,Latitude
 
 ### 5. 🏙️ Urban Centers
 **Directory**: `Cities/` (or custom name)  
-**Description**: Urban centers and populated places  
+**Description**: Urban centers and populated places; users should clip and extract data based on their area of interest.  
 **Format**: Shapefile (.shp) or GeoPackage (.gpkg)  
 
 **Spatial specifications**:
@@ -133,7 +133,7 @@ Longitude,Latitude
 
 ### 6. 🛡️ Protected Areas
 **Directory**: `WDPA_Data/` (or custom name)  
-**Description**: Protected areas for accessibility analysis  
+**Description**: Protected areas for accessibility analysis; users should clip and extract data based on their area of interest.  
 **Format**: Shapefile (.shp) or GeoPackage (.gpkg)  
 
 **Spatial specifications**:
@@ -147,11 +147,9 @@ Longitude,Latitude
 
 ---
 
-## Optional Input Files
-
-### 7. 👥 Human Footprint (Optional)
+### 7. 👥 Human Footprint
 **File**: `HF_neotropico_final.tif` (or custom name)  
-**Description**: Human footprint raster for critical areas analysis  
+**Description**: Human footprint raster for critical areas analysis; users should clip and extract data based on their area of interest.  
 **Format**: GeoTIFF (.tif)  
 
 **Specifications**:
@@ -167,12 +165,12 @@ Longitude,Latitude
 
 ### 8. 🌡️ Climate Loss Data (Optional)
 **Directory**: `Final_Areas/` (or custom name)  
-**Description**: Species-specific habitat loss projections under climate change  
+**Description**: Species-specific habitat loss projections under climate change; Species and areas can be modified based on user needs.  
 **Format**: Species folders containing GeoTIFF files  
 
 **Directory structure**:
 ```
-Final_Areas/
+Loss_Areas/
 ├── Species_1/
 │   ├── Loss_ssp245.tif
 │   └── Loss_ssp585.tif
@@ -198,23 +196,23 @@ Final_Areas/
 data/input/
 ├── Hidden_points.csv                    # Required
 ├── All_coordinates.csv                  # Required
-├── HF_neotropico_final.tif             # Required - Human footprint map with raw data (can be replaced with any area or biome of interest).
-├── Neotropic/                          # Required - Neotropical provinces (any other regionalization can be included for any region of the world)
+├── HF_neotropico_final.tif             # Required 
+├── Neotropic/                          # Required 
 │   ├── provinces.shp
 │   ├── provinces.shx
 │   ├── provinces.dbf
 │   ├── provinces.prj
 │   └── [other shapefile components]
-├── GRIP4/                              # Required (defined for the study region)
+├── GRIP4/                              # Required 
 │   ├── roads.shp
 │   └── [associated files]
-├── Cities/                             # Required (defined for the study region)
+├── Cities/                             # Required 
 │   ├── cities.shp
 │   └── [associated files]
-├── WDPA_Data/                          # Required (defined for the study region)
+├── WDPA_Data/                          # Required 
 │   ├── protected_areas.shp
 │   └── [associated files]
-└── Loss_Areas/                        # Optional (area loss for each hidden species complex)
+└── Loss_Areas/                        # Optional 
     ├── Species_1/
     │   ├── Loss_ssp245.tif
     │   └── Loss_ssp585.tif
