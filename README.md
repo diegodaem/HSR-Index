@@ -30,7 +30,7 @@ Optional, but recommended integrations:
 ### Prerequisites
 - **R** ≥ 4.0.0 (recommended: R ≥ 4.2.0)
 - **RStudio** (optional but recommended)
-- **8GB RAM minimum** (16GB+ recommended for large datasets)
+- **4GB RAM minimum** (16GB+ recommended for large datasets)
 
 ### Installation
 
