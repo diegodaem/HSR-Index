@@ -230,8 +230,8 @@ When using the HSR Index methodology, please cite:
   number={XX},
   pages={eXXXXXXX},
   year={2025},
-  publisher={American Association for the Advancement of Science},
-  doi={10.1126/sciadv.XXXXXXX}
+  publisher={XXX},
+  doi={XXX}
 }
 ```
 
