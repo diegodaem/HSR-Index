@@ -213,7 +213,7 @@ data/input/
 ├── WDPA_Data/                          # Required 
 │   ├── WDPA_neotropico.gpkg
 │   └── [associated files]
-└── Loss_Areas/                        # Optional 
+└── Final_Areas/                        # Optional 
     ├── Species_1/
     │   ├── Loss_ssp245.tif
     │   └── Loss_ssp585.tif
