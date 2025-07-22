@@ -170,7 +170,7 @@ Longitude,Latitude
 
 **Directory structure**:
 ```
-Loss_Areas/
+Final_Areas/
 ├── Species_1/
 │   ├── Loss_ssp245.tif
 │   └── Loss_ssp585.tif
