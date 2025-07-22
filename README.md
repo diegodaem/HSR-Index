@@ -249,7 +249,6 @@ We welcome contributions from the research community!
 ## 🆘 Support & Troubleshooting
 
 ### Common Issues
-- **Package installation failures**: See [Installation Guide](docs/installation.md)
 - **Spatial data loading errors**: Check coordinate systems and file integrity
 - **Memory issues**: Consider processing smaller regions or using more RAM
 - **Long computation times**: Enable parallel processing in configuration
