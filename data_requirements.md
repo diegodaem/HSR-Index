@@ -291,7 +291,7 @@ plot(data$Longitude, data$Latitude)
 ## Getting Help
 
 ### Support Resources
-- **Example datasets**: Check `data/example/` folder in repository
+- **Example datasets**: Check `data/input/` folder in repository
 - **GitHub Issues**: [Report data problems](https://github.com/YOURUSERNAME/HSR-Index/issues)
 - **R Spatial Community**: [r-spatial.org](https://r-spatial.org/)
 
