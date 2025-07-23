@@ -48,9 +48,9 @@ Optional, but recommended integrations:
    ```
 
 3. **Prepare your data**
-   - Read [`data_requirements.md`](data_requirements.md) for detailed format specifications
+   - Read [`data_requirements.md`](data/data_requirements.md) for detailed format specifications
    - Use files in [`data/input/`](data/input/) as templates
-   - Replace your data in `data/input/` following the required structure
+   - Replace your data in `data/input/` following the structure
 
 4. **Run the analysis**
    ```r
