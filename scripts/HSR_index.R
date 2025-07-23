@@ -1,5 +1,5 @@
 # HSR Index Analysis - Main Script
-# Author: Diego A. Esquivel
+# Authors: Esquivel, D.A., Penagos, A., Feijó, A., Ramos Pereira, M.
 # Script of "Racing Against Time to Unveil Hidden Bat Diversity"
 
 #---------- 1. PACKAGE LOADING  ----------
