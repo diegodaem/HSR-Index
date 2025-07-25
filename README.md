@@ -98,7 +98,7 @@ Default weights: α=0.33, β=0.34, γ=0.33
 - Province Rankings: List of areas ranked by discovery potential
 - HSR Raster: High-resolution spatial data for GIS integration and further analysis
 - Accessibility Profiles: Distance analysis tables for roads, cities, and protected areas by province
-- Critical Areas Maps: Combined risk assessment including climate change impacts (SSP245/SSP585 scenarios)
+- Critical Areas Maps: Combined risk assessment including climate change impacts
 
 ---
 
