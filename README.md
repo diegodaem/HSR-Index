@@ -179,28 +179,6 @@ HSR-Index/
 - **[💡 Usage Examples](docs/examples/)**: Step-by-step tutorials
 
 ---
-
-## 📊 Example Results
-
-### Sample Outputs
-The HSR analysis generates several key outputs:
-
-**Maps**:
-- HSR Index distribution across biogeographic provinces
-- Accessibility and sampling effort
-
-**Tables**:
-- Province-level HSR scores and rankings
-- Species richness and accessibility metrics
-- Priority areas for field survey recommendations
-
-**Rasters**:
-- High-resolution HSR surface maps
-- Critical areas probability surfaces
-- Accessibility and human footprint integration
-
----
-
 ## 🔬 Scientific Applications
 
 ### Use Cases
