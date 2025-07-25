@@ -15,9 +15,9 @@ cat("================================================================\n\n")
 # List of required packages
 required_packages <- c(
   # Spatial and geographic analysis
-  "sf",           # Simple Features - modern vector analysis
-  "terra",        # Raster analysis (successor to raster)
-  "raster",       # Raster analysis (legacy, for compatibility)
+  "sf",           # Simple Features 
+  "terra",        # Raster analysis 
+  "raster",       # Raster analysis
   "units",        # Spatial units handling
   
   # Data manipulation and analysis
