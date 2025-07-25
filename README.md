@@ -43,7 +43,7 @@ The **Hidden Species Richness (HSR) Index** is a quantitative framework designed
    - Set this as your working directory
    - You should see folders: auxiliary scripts/ data/, docs/, output/
 
-   **Large Files Notice**
+   **Large Files Notice:**
    Some large datasets used in this repository exceed GitHub's file size limits and are **not included directly in the repository**. To access these files:
    - Go to the following Google Drive folder:  
    **🔗 [https://drive.google.com/drive/folders/1kB37m4OioDumWwPyu8Mxe2gZpvDKtGok?usp=drive_link]**
