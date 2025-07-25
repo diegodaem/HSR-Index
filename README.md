@@ -41,7 +41,7 @@ The **Hidden Species Richness (HSR) Index** is a quantitative framework designed
 2. **Open R/RStudio from the HSR-Index/ directory**
    - Navigate to the extracted HSR-Index/ folder
    - Set this as your working directory
-   - You should see folders: data/, docs/, output/
+   - You should see folders: auxiliary scripts/ data/, docs/, output/
      
 3. **Install R dependencies**
    ```r
