@@ -2,7 +2,7 @@
 
 ## Overview
 
-Accurately estimating undescribed species richness remains a fundamental challenge in biodiversity science, particularly when sampling efforts are unevenly distributed across geographic regions. The HSR index addresses this problem by standardizing hidden diversity estimates across biogeographic provinces while correcting for systematic biases in genetic data collection. This methodology combines molecular species delimitation with spatial analysis to produce comparable metrics of cryptic diversity potential. When integrated with ecological niche models (ENMs) and rasters of human-induced landscape modification, the HSR framework enables identification of hidden diversity hotspots where conservation urgency intersects with high discovery potential, allowing researchers to prioritize taxonomic efforts in regions where new species are most likely yet face immediate threats.
+Accurately estimating undescribed species richness remains a fundamental challenge in biodiversity science, particularly when sampling efforts are unevenly distributed across geographic regions. The HSR index addresses this problem by standardizing hidden diversity estimates across biogeographic provinces while correcting for systematic biases in genetic data collection. When integrated with ecological niche models (ENMs) and rasters of human-induced landscape modification, the HSR framework enables identification of hidden diversity hotspots where conservation urgency intersects with high discovery potential, allowing researchers to prioritize taxonomic efforts in regions where new species are most likely yet face immediate threats.
 
 ## HSR Formula
 
