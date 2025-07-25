@@ -140,7 +140,7 @@ HSR-Index/
 │   │   │   ├── provinces.prj
 │   │   │   └── ... [associated files]
 │   │   ├── 📁 Human_Footprint/    # Data from Theobald et al. (2020). Users may clip the raster layer to match their area of interest.
-│   │   │   └── HF_neotropics
+│   │   │   └── HF_neotropics.tif
 │   │   ├── 📁 GRIP4/              # Data from Meijer et al. (2018). Users may clip the shp. layer to match their area of interest.
 │   │   │   ├── roads.shp           
 │   │   │   └── ... [associated files]  
