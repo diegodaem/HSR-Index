@@ -4,7 +4,7 @@
 # This script automatically installs all required R packages
 # to run the HSR Index analysis
 #
-# Usage: source("scripts/install_dependencies.R")
+# Usage: source("install_dependencies.R")
 
 cat("================================================================\n")
 cat("HSR INDEX - DEPENDENCIES INSTALLATION\n")
