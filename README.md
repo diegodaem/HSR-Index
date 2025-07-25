@@ -26,7 +26,7 @@ The **Hidden Species Richness (HSR) Index** is a quantitative framework designed
 ## 🚀 Quick Start
 
 ### Prerequisites
-- **R** ≥ 4.0.0 (recommended: R ≥ 4.2.0)
+- **R** ≥ 4.3.0 (recommended: R 4.5.0)
 - **RStudio** (optional but recommended)
 - **4GB RAM minimum** (16GB+ recommended for large datasets)
 
