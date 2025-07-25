@@ -53,7 +53,7 @@ The **Hidden Species Richness (HSR) Index** is a quantitative framework designed
    - `WDPA_neotropico.gpkg` → `data/input/WDPA_Data/`  
    - `roads.shp` and associated files → `data/input/GRIP4/`
 
-Please **preserve the folder structure** to ensure the scripts run properly. See structure below
+   Please **preserve the folder structure** to ensure the scripts run properly. See structure below
      
 4. **Install R dependencies**
    ```r
