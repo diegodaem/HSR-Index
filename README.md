@@ -43,7 +43,7 @@ The **Hidden Species Richness (HSR) Index** is a quantitative framework designed
    - Set this as your working directory
    - You should see folders: auxiliary scripts/ data/, docs/, output/
 
-3. **Large Files Notice**
+   **Large Files Notice**
    Some large datasets used in this repository exceed GitHub's file size limits and are **not included directly in the repository**. To access these files:
    - Go to the following Google Drive folder:  
    **🔗 [https://drive.google.com/drive/folders/1kB37m4OioDumWwPyu8Mxe2gZpvDKtGok?usp=drive_link]**
@@ -55,18 +55,18 @@ The **Hidden Species Richness (HSR) Index** is a quantitative framework designed
 
    Please **preserve the folder structure** to ensure the scripts run properly. See structure below
      
-4. **Install R dependencies**
+3. **Install R dependencies**
    ```r
    # Automatically install all required packages
    source("install_dependencies.R")
    ```
 
-5. **Prepare your data**
+4. **Prepare your data**
    - Read [`data_requirements.md`](data/data_requirements.md) for detailed format specifications
    - Use files in [`data/input/`](data/input/) as templates
    - Replace your data in `data/input/` following the structure
 
-6. **Run the analysis**
+5. **Run the analysis**
    ```r
    # Execute main HSR analysis
    source("HSR_index.R")
