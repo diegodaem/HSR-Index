@@ -182,18 +182,33 @@ HSR-Index/
 ## 🔬 Scientific Applications
 
 ### Use Cases
-- **Biodiversity Surveys**: Optimize field collection efforts
-- **Conservation Planning**: Identify high-priority conservation areas
-- **Taxonomic Research**: Direct systematic biology investigations
-- **Climate Impact Assessment**: Evaluate species vulnerability patterns
-- **Resource Allocation**: Guide funding and research priorities
+
+**Conservation & Planning**
+- **Biodiversity Hotspot Identification**: Prioritize regions with highest potential for species discovery
+- **Conservation Resource Allocation**: Guide funding decisions for maximum biodiversity protection impact
+- **Protected Area Expansion**: Identify underrepresented regions for new conservation zones
+
+**Scientific Research**
+- **Targeted Field Expeditions**: Optimize survey locations to maximize discovery potential while minimizing costs
+- **Taxonomic Research Direction**: Focus systematic biology efforts on provinces with highest cryptic diversity
+- **Sampling Strategy Design**: Balance accessibility constraints with scientific discovery potential
+
+**Climate & Risk Assessment**
+- **Climate Vulnerability Mapping**: Identify regions where hidden species face highest extinction risk
+- **Species Loss Prediction**: Model potential biodiversity impacts under different climate scenarios
+- **Adaptive Management**: Monitor changes in accessibility and discovery potential over time
+
+**Policy & Management**
+- **National Biodiversity Strategies**: Inform country-level conservation planning and NBSAP development
+- **Research Infrastructure Planning**: Guide placement of field stations and research facilities
+- **International Collaboration**: Identify cross-border priority regions for joint conservation efforts
 
 ---
 
 ## 📝 Citation
 
 ### Primary Citation
-When using the HSR Index methodology, please cite:
+When using the HSR Index, please cite:
 
 ```bibtex
 @article{esquivel2025hsr,
