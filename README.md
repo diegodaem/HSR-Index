@@ -176,7 +176,6 @@ HSR-Index/
 ### Quick References
 - **[📊 Data Requirements](data/data_requirements.md)**: Complete data format specifications
 - **[🔬 Methodology](docs/methodology.md)**: Scientific background and mathematical details
-- **[💡 Usage Examples](docs/examples/)**: Step-by-step tutorials
 
 ---
 ## 🔬 Scientific Applications
