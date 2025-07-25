@@ -54,8 +54,9 @@ Optional, but recommended integrations:
 
 4. **Run the analysis**
    ```r
+   # **Open R/RStudio from the HSR-Index/ directory**
    # Execute main HSR analysis
-   source("scripts/HSR_index.R")
+   source("HSR_index-new.R")
    ```
 
 ### Expected Runtime
@@ -148,9 +149,6 @@ HSR-Index/
 │   │   │   └── 📁 Species_N/
 │   │   │       ├── Loss_ssp245.tif
 │   │   │       └── Loss_ssp585.tif
-├── 📁 scripts/                     # Analysis code
-│   ├── 🔧 install_dependencies.R   # Package installation
-│   ├── 📊 HSR_index.R              # Main analysis script
 ├── 📁 output/                      # Generated results
 │   ├── 📊 figures/                 # Maps and plots
 │   ├── 📋 tables/                  # CSV results
