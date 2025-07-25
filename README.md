@@ -84,10 +84,6 @@ HSR = (S_hidden / log(N_sequences + 1)) × (1 + w₁×Z_accessibility + w₂×Z_
 - `Z_size`: Standardized province area score
 - `w₁, w₂`: Adjustment weights (default: 0.2 each)
 
-### Expected results
-- Priority Map: Shows which regions need urgent biodiversity surveys
-- Province Rankings: List of areas ranked by discovery potential
-
 ### Critical Areas Integration
 Optionally, combine HSR with additional layers:
 
@@ -96,6 +92,13 @@ Critical_Areas = α×HSR + β×Human_Footprint + γ×Climate_Loss
 ```
 
 Default weights: α=0.33, β=0.34, γ=0.33
+
+### Expected results
+- Priority Map: Shows which regions need urgent actions
+- Province Rankings: List of areas ranked by discovery potential
+- HSR Raster: High-resolution spatial data for GIS integration and further analysis
+- Accessibility Profiles: Distance analysis tables for roads, cities, and protected areas by province
+- Critical Areas Maps: Combined risk assessment including climate change impacts (SSP245/SSP585 scenarios)
 
 ---
 
