@@ -97,8 +97,8 @@ HSR = (S_hidden / log(N_sequences + 1)) × (1 + w₁×Z_accessibility + w₂×Z_
 3. **Standardization**: Apply log transformation and robust Z-score normalization using Median Absolute Deviation (MAD)
 
 ### Expected results
-- List of biogeographic provinces or regions with the highest hidden species richness
-- A map of provinces showing HSR values
+- Priority Map: Shows which regions need urgent biodiversity surveys
+- Province Rankings: List of areas ranked by discovery potential
 
 ### Critical Areas Integration
 Optionally, combine HSR with additional layers:
