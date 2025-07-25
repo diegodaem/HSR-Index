@@ -11,7 +11,7 @@
 
 ## 📋 Description
 
-The **Hidden Species Richness (HSR) Index** is a quantitative framework designed to identify biogeographic areas with the highest potential for hidden species discovery. By integrating multiple biodiversity and accessibility factors, the HSR offers a data-driven tool to guide field surveys and taxonomic research. When combined with ecological niche models and variables representing human-induced landscape modification, the HSR helps pinpoint regions of critical importance for unveil hidden diversity. The model is flexible and can be adapted for any taxonomic group, across all biomes and ecosystems globally.
+The **Hidden Species Richness (HSR) Index** is a quantitative framework designed to identify biogeographic areas with the highest potential for hidden species discovery. By integrating biodiversity and accessibility factors, the HSR offers a data-driven tool to guide field surveys and taxonomic research. When combined with ecological niche models and variables representing human-induced landscape modification, the HSR helps pinpoint regions of critical importance for unveil hidden diversity. The model is flexible and can be adapted for any taxonomic group, across all biomes and ecosystems globally.
 
 ### Key Features
 - **Priority Region Identification**: Identifies biogeographic provinces with highest potential for undiscovered species
