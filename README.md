@@ -109,8 +109,11 @@ HSR-Index/
 ├── 📄 README.md                    # This documentation
 ├── 📄 LICENSE                      # MIT License
 ├── 📄 .gitignore                   # Git ignore rules
-├── 📘 HSR_index.R                 # Main script
-├── 📘 install_dependencies.R      # Dependencies
+├── 💻 HSR_index.R                 # Main script
+├── 💻 install_dependencies.R      # Dependencies
+├── 📁 auxiliary scripts/          
+│   ├── 💻 genbi.py                # Python script to download genetic data
+│   ├── 💻 Priorization.py         # Python script for species prioritization
 ├── 📁 docs/                        # Additional documentation
 │   ├── methodology.md             # Detailed methodology
 ├── 📁 data/                        
