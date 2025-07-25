@@ -40,23 +40,26 @@ Optional, but recommended integrations:
    # Click green "Code" button → "Download ZIP"
    
      ```
-
-2. **Install R dependencies**
+2. **Open R/RStudio from the HSR-Index/ directory**
+   - Navigate to the extracted HSR-Index/ folder
+   - Set this as your working directory
+   - You should see folders: data/, docs/, output/
+     
+3. **Install R dependencies**
    ```r
    # Automatically install all required packages
-   source("scripts/install_dependencies.R")
+   source("install_dependencies.R")
    ```
 
-3. **Prepare your data**
+4. **Prepare your data**
    - Read [`data_requirements.md`](data/data_requirements.md) for detailed format specifications
    - Use files in [`data/input/`](data/input/) as templates
    - Replace your data in `data/input/` following the structure
 
-4. **Run the analysis**
+5. **Run the analysis**
    ```r
-   # **Open R/RStudio from the HSR-Index/ directory**
    # Execute main HSR analysis
-   source("HSR_index-new.R")
+   source("HSR_index.R")
    ```
 
 ### Expected Runtime
