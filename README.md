@@ -190,17 +190,13 @@ HSR-Index/
 
 **Scientific Research**
 - **Targeted Field Expeditions**: Optimize survey locations to maximize discovery potential while minimizing costs
-- **Taxonomic Research Direction**: Focus systematic biology efforts on provinces with highest cryptic diversity
+- **Taxonomic Research Direction**: Focus systematic biology efforts on provinces with highest hidden diversity
 - **Sampling Strategy Design**: Balance accessibility constraints with scientific discovery potential
 
 **Climate & Risk Assessment**
 - **Climate Vulnerability Mapping**: Identify regions where hidden species face highest extinction risk
-- **Species Loss Prediction**: Model potential biodiversity impacts under different climate scenarios
-- **Adaptive Management**: Monitor changes in accessibility and discovery potential over time
 
 **Policy & Management**
-- **National Biodiversity Strategies**: Inform country-level conservation planning and NBSAP development
-- **Research Infrastructure Planning**: Guide placement of field stations and research facilities
 - **International Collaboration**: Identify cross-border priority regions for joint conservation efforts
 
 ---
