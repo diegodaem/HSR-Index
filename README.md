@@ -109,6 +109,8 @@ HSR-Index/
 ├── 📄 README.md                    # This documentation
 ├── 📄 LICENSE                      # MIT License
 ├── 📄 .gitignore                   # Git ignore rules
+├── 📘 HSR_index.R                 # Main script
+├── 📘 install_dependencies.R      # Dependencies
 ├── 📁 docs/                        # Additional documentation
 │   ├── methodology.md             # Detailed methodology
 ├── 📁 data/                        
