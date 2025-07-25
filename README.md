@@ -62,8 +62,8 @@ The **Hidden Species Richness (HSR) Index** is a quantitative framework designed
 
 ### Expected Runtime
 - **Small datasets** (<1,000 geographic coordinates): 30-60 minutes
-- **Medium datasets** (1,000-10,000 geographic coordinates): 3-5 hours  
-- **Large datasets** (>10,000 geographic coordinates): 12-18 hours
+- **Medium datasets** (1,000-10,000 geographic coordinates): 2-3 hours  
+- **Large datasets** (>10,000 geographic coordinates): 3-5 hours
 
 ---
 
@@ -258,8 +258,8 @@ When reporting bugs, please include:
 | Dataset Size | Provinces | geographic coordinates | Runtime | RAM Usage |
 |--------------|-----------|-----------|---------|-----------|
 | Small | 10-50 | <1,000 | 30-60 min | 2-3 GB |
-| Medium | 50-100 | 1,000-10,000 | 3-5 hours | 4-8 GB |
-| Large | 100+ | 10,000-20,000 | 12-18 hours | 8-16 GB |
+| Medium | 50-100 | 1,000-10,000 | 2-3 hours | 4-8 GB |
+| Large | 100+ | 10,000-20,000 | 3-5 hours | 8-16 GB |
 
 *Times measured on Intel i7 processor with 16GB RAM*
 
