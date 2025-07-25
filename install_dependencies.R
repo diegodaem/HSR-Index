@@ -28,7 +28,7 @@ required_packages <- c(
   
   # Visualization
   "ggplot2",      # Advanced graphics
-  "gridExtra",    # Multiple plot arrangements
+  "gridExtra"    # Multiple plot arrangements
   
 )
 
