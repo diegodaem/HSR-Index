@@ -203,7 +203,7 @@ data/input/
 │   ├── provinces.prj
 │   └── [other shapefile components]
 ├── Human_Footprint/                    # Required
-│   ├── HF_neotropics
+│   ├── HF_neotropics.tif
 ├── GRIP4/                              # Required 
 │   ├── roads.shp
 │   └── [associated files]
