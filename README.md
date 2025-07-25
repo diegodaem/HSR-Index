@@ -84,16 +84,6 @@ HSR = (S_hidden / log(N_sequences + 1)) × (1 + w₁×Z_accessibility + w₂×Z_
 - `Z_size`: Standardized province area score
 - `w₁, w₂`: Adjustment weights (default: 0.2 each)
 
-### Accessibility Calculation
-1. **Distance Analysis**: Calculate minimum distances from each genetic coordinate to:
-   - Major road networks (GRIP4 data)
-   - Urban centers and populated places
-   - Protected areas
-
-2. **Province Aggregation**: Compute median distances per biogeographic province
-
-3. **Standardization**: Apply log transformation and robust Z-score normalization using Median Absolute Deviation (MAD)
-
 ### Expected results
 - Priority Map: Shows which regions need urgent biodiversity surveys
 - Province Rankings: List of areas ranked by discovery potential
