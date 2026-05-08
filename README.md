@@ -5,7 +5,7 @@
 ![GitHub issues](https://img.shields.io/github/issues/diegodaem/HSR-Index)
 
 ### 🔬 Research Context
-**Paper**: Esquivel, D.A., Penagos, A., Feijó, A., Ramos Pereira, M. (2026). Racing Against Time to Unveil Hidden Bat Diversity. Submitted to "Nature Communications" 
+**Paper**: Esquivel, D.A., Penagos, A., Feijó, A., Ramos Pereira, M. (2026). Racing Against Time to Unveil Hidden Bat Diversity in the Neotropics. Submitted to "Nature Communications" 
 
 ---
 
