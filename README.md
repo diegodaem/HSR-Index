@@ -223,14 +223,14 @@ HSR-Index/
 When using the HSR Index, please cite:
 
 ```bibtex
-@article{esquivel2025hsr,
+@article{esquivel2026hsr,
   title={Racing Against Time to Unveil Hidden Bat Diversity},
   author={Esquivel, Diego A.},
   journal={Nature Communications},
   volume={XX},
   number={XX},
   pages={eXXXXXXX},
-  year={2025},
+  year={2026},
   publisher={XXX},
   doi={XXX}
 }
