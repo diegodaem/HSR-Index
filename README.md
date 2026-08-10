@@ -5,7 +5,7 @@
 ![GitHub issues](https://img.shields.io/github/issues/diegodaem/HSR-Index)
 
 ### 🔬 Research Context
-**Paper**: Esquivel, D.A., Penagos, A., Feijó, A., Ramos Pereira, M. (2026). Racing Against Time to Unveil Hidden Bat Diversity in the Neotropics. Submitted to "Nature Communications" 
+**Paper**: Esquivel, D.A., Penagos, A., Feijó, A., Ramos Pereira, M. (2026). Substantial Neotropical bat diversity likely remains undescribed and vulnerable to extinction. Nature Communications 
 
 ---
 
@@ -224,7 +224,7 @@ When using the HSR Index, please cite:
 
 ```bibtex
 @article{esquivel2026hsr,
-  title={Racing Against Time to Unveil Hidden Bat Diversity},
+  title={Substantial Neotropical bat diversity likely remains undescribed and vulnerable to extinction},
   author={Esquivel, Diego A.},
   journal={Nature Communications},
   volume={XX},
@@ -346,5 +346,5 @@ This project is licensed under the **MIT License** - see the [LICENSE](LICENSE) 
 
 ---
 
-*Last updated: [07/21/2025]*  
+*Last updated: [08/10/2026]*  
 *Version: 1.0.0*
