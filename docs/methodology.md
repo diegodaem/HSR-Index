@@ -40,7 +40,7 @@ Based on the species-area relationship - larger provinces typically support more
 ## Implementation Details
 
 ### Species Delimitation
-- **Methods**: Consensus approach using 4 algorithms (ABGD, ASAP, GMYC, bPTP)
+- **Methods**: Consensus approach using 5 algorithms (ABGD, ASAP, GMYC, bPTP, mPTP)
 - **Genetic marker**: Cytochrome Oxidase I (COI) 
 - **Consensus rule**: Hidden species identified when ≥3 algorithms agree
 - **Data source**: GenBank and BOLD Systems sequences
@@ -68,18 +68,6 @@ Combined layers with weights:
 - Human footprint (Theobald et al. 2020): 34% 
 - Climate habitat loss: 33%
 
-## Example Applications
-
-### Case 1: Accessibility Impact
-**Province A** (accessible): 5 hidden species, 3,000 sequences → HSR = 0.48  
-**Province B** (remote): 5 hidden species, 30 sequences → HSR = 2.12  
-**Result**: Same diversity count, but Province B receives 4.4× higher priority
-
-### Case 2: Size Effect  
-**Small Province**: 10 hidden species, 500 sequences → HSR = 1.29  
-**Large Province**: 10 hidden species, 500 sequences → HSR = 1.93  
-**Result**: Large province receives 50% higher score, suggesting more undiscovered diversity
-
 ## Limitations and Assumptions
 
 - **Single-gene approach**: COI alone may miss some cryptic diversity
@@ -96,4 +84,4 @@ Combined layers with weights:
 ## Reference
 
 For complete methodological details and biological context, see:  
-Esquivel, D.A., Penagos, A., Feijó, A., Ramos Pereira, M. (2025). Racing Against Time to Unveil Hidden Bat Diversity. *Nature Communications*.
+Esquivel, D.A., Penagos, A., Feijó, A., Ramos Pereira, M. (2026). Substantial Neotropical bat diversity likely remains undescribed and vulnerable to extinction. *Nature Communications*.
