@@ -8,7 +8,7 @@
 
 cat("================================================================\n")
 cat("HSR INDEX - DEPENDENCIES INSTALLATION\n")
-cat("Racing Against Time to Unveil Hidden Bat Diversity\n")
+cat("Substantial Neotropical bat diversity likely remains undescribed and vulnerable to extinction\n")
 cat("Esquivel et al. (2026) Nature Communications\n")
 cat("================================================================\n\n")
 
