@@ -83,5 +83,5 @@ Combined layers with weights:
 
 ## Reference
 
-For complete methodological details and biological context, see:  
+For complete methodological details, please see:  
 Esquivel, D.A., Penagos, A., Feijó, A., Ramos Pereira, M. (2026). Substantial Neotropical bat diversity likely remains undescribed and vulnerable to extinction. *Nature Communications*.
