@@ -1,6 +1,6 @@
 # HSR Index Analysis - Main Script
-# Esquivel et al. (2025) Nature Communications
-# Script of "Racing Against Time to Unveil Hidden Bat Diversity"
+# Esquivel et al. (2026) Nature Communications
+# Script of "Substantial Neotropical bat diversity likely remains undescribed and vulnerable to extinction"
 
 #---------- 1. PACKAGE LOADING ----------
 library(sf)
@@ -55,7 +55,7 @@ cat("✓ Protected areas loaded:", nrow(pas), "\n")
 cat("=== STARTING THE HIDDEN SPECIES RICHNESS INDEX ===\n")
 
 #---------- 3. CALCULATE HIDDEN SPECIES PER BIOGEOGRAPHIC PROVINCE ----------
-cat("=== ✓ Counting hidden species per province ===\n")
+cat("=== Counting hidden species per province ===\n")
 
 # Fix invalid geometries and prepare provinces
 provinces <- provinces[, "Provincias", drop = FALSE]
@@ -132,10 +132,10 @@ sequences_by_province <- all_points_assigned %>%
   filter(!is.na(Provincias)) %>%
   group_by(Provincias) %>%
   summarize(num_genetic_sequences = n(), .groups = 'drop')
-cat("=== ✓ Number of genetic sequences per province ===\n")
+cat("=== Number of genetic sequences per province ===\n")
 
 #---------- 4. CALCULATE DISTANCES USING NEIGHBORING PROVINCES ----------
-cat("=== ✓ Starting spatial analyses ===\n")
+cat("=== Starting spatial analyses ===\n")
 
 # Ensure all spatial layers use the same CRS
 roads <- st_transform(roads, st_crs(provinces))
@@ -325,7 +325,7 @@ median_by_province <- median_by_province %>%
     Z_accessibility = (mean_accessibility_log - A_global_median) / MAD_accessibility
   )
 
-cat("=== ✓ Z-SCORE FOR ACCESSIBILITY===\n")
+cat("=== Z-SCORE FOR ACCESSIBILITY===\n")
 
 #---------- 9. CALCULATE Z-SCORE OF SIZE ----------
 
@@ -364,7 +364,7 @@ median_by_province <- median_by_province %>%
   )
 
 # Show examples of size Z-scores
-cat("=== ✓ Z-SCORE FOR SIZE ===\n")
+cat("=== Z-SCORE FOR SIZE ===\n")
 
 #---------- 10. CALCULATE HSR INDEX ----------
 # FORMULA: HSR = (S_hidden / log(N_sequences + 1)) * (1 + (0.2 * Z_accessibility) + (0.2 * Z_size))
@@ -502,7 +502,7 @@ ggsave(file.path(root_dir, "output", "figures", "Figure 3A. HSR_index_map.png"),
        map_hsr, width = 10, height = 8, dpi = 300)
 
 #---------- 12. RASTERIZE HSR ----------
-cat("=== ✓ RASTERIZING HSR — PLEASE CHECK RASTERS ===\n")
+cat("=== RASTERIZING HSR — PLEASE CHECK RASTERS ===\n")
 
 # Load the human footprint raster as a reference template
 human_footprint_file <- file.path(root_dir, "data", "input", "Human_Footprint", "HF_neotropics")
@@ -525,7 +525,7 @@ if (!file.exists(paste0(human_footprint_file, ".tif"))) {
   human_footprint_file <- paste0(human_footprint_file, ".tif")
 }
 
-cat("=== ✓ INTEGRATION WITH HUMAN-INDUCED LANDSCAPE MODIFICATIONS ===\n")
+cat("=== INTEGRATION WITH HUMAN-INDUCED LANDSCAPE MODIFICATIONS ===\n")
 # Load human footprint raster
 cat("Loading human footprint raster from:", human_footprint_file, "\n")
 huella_humana <- rast(human_footprint_file)
@@ -587,7 +587,7 @@ writeRaster(indice_especies_ocultas, hsr_raster_file, overwrite = TRUE)
 cat("HSR raster saved to:", hsr_raster_file, "\n")
 
 #---------- 13. LOSS AREA SSP245 & SSP585 ----------
-cat("=== ✓ INTEGRATION WITH ECOLOGICAL NICHE MODELS ===\n")
+cat("=== INTEGRATION WITH ECOLOGICAL NICHE MODELS ===\n")
 
 # Define directories
 loss_dir <- file.path(root_dir, "data", "input", "Loss_Areas")
@@ -674,7 +674,7 @@ for (scenario in scenarios) {
 cat("\nBoth scenarios processed successfully!\n")
 
 #---------- 14. CRITICAL AREAS MAP SSP245 & SSP585 ----------
-cat("=== ✓ HIDDEN DIVERSITY HOTSPOTS IDENTIFIED — PLEASE CHECK MAPS ===\n")
+cat("=== HIDDEN DIVERSITY HOTSPOTS IDENTIFIED — PLEASE CHECK MAPS ===\n")
 
 # Load the HSR raster (from section 14)
 indice_especies_ocultas <- rast(file.path(root_dir, "output", "rasters", "HSR_index_raster.tif"))
@@ -750,7 +750,7 @@ for (i in 1:length(scenarios)) {
 cat("\nAll critical areas maps completed!\n")
 
 #---------- 15. PRIORITY PROVINCES SSP245 & SSP585 ----------
-cat("=== ✓ PRIORITY PROVINCES IDENTIFIED — PLEASE CHECK TABLES ===\n")
+cat("=== PRIORITY PROVINCES IDENTIFIED — PLEASE CHECK TABLES ===\n")
 
 # Process both scenarios
 scenarios <- c("ssp245", "ssp585")
