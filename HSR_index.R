@@ -1,4 +1,4 @@
-# HSR Index Analysis - Main Script
+# HSR Index - Main Script
 # Esquivel et al. (2026) Nature Communications
 # Script of "Substantial Neotropical bat diversity likely remains undescribed and vulnerable to extinction"
 
