@@ -1,5 +1,5 @@
 # HSR Index - Automatic Dependencies Installation
-# Esquivel et al. (2025) Nature Communications
+# Esquivel et al. (2026) Nature Communications
 # 
 # This script automatically installs all required R packages
 # to run the HSR Index analysis
@@ -9,7 +9,7 @@
 cat("================================================================\n")
 cat("HSR INDEX - DEPENDENCIES INSTALLATION\n")
 cat("Racing Against Time to Unveil Hidden Bat Diversity\n")
-cat("Esquivel et al. (2025) Nature Communications\n")
+cat("Esquivel et al. (2026) Nature Communications\n")
 cat("================================================================\n\n")
 
 # List of required packages
